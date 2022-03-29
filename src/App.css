@@ -1,0 +1,131 @@
+body {
+  background-color: #0d1116;
+  color: white;
+}
+
+.metamask-error {
+  position: relative;
+  top: 0;
+  left: 0;
+  background: #FBD34D;
+  color: black;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+}
+
+.main-app {
+  text-align: center;
+}
+
+header {
+  margin: 10px auto;
+  font-size: 25px;
+  color: #a2facf;
+}
+
+header .h1 {
+  margin-bottom: 0;
+}
+
+.os-button {
+    margin: 20px auto;
+    padding: 10px 20px;
+    color: white;
+    background-color: #1868b7;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.os-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner-img {
+  margin-bottom: 50px;
+}
+
+.banner-img img {
+  max-height: 250px;
+  max-width: 100%;
+}
+
+.cta-button {
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  min-width: 250px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.connect-wallet-button {
+  background: #64acff;
+}
+
+.mint-nft-button {
+  background: orange;
+}
+
+.success, .mining {
+  margin-bottom: 20px;
+}
+
+.mining p {
+  color: #FBD34D;
+}
+
+.success p {
+  color: orange
+}
+
+.success-link {
+  line-height: 27px;
+}
+
+.success-link span{
+  color: white;
+}
+
+.success-link a {
+  color: white;
+}
+
+.error p {
+  color: red;
+}
+
+.show-user-address {
+  padding: 25px;
+}
+
+.show-user-address p {
+  text-align: center;
+  line-height: 27px;
+}
+
+.show-user-address span {
+  color: hsl(181, 100%, 73%);
+}
+
+footer {
+  padding: 25px;
+}
+
+footer p {
+  text-align: center;
+  line-height: 27px;
+}
+
+footer span a {
+  color: rgb(243, 116, 255);
+  text-decoration: none;
+}
+
+.contract-link {
+    text-decoration: underline;
+    text-decoration-color: #64acff;
+}
